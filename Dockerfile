@@ -1,2 +1,2 @@
 FROM tomcat:latest
-COPY target/ /usr/local/tomcat/webapps
+COPY target/sparkjava-hello-world /usr/local/tomcat/webapps
