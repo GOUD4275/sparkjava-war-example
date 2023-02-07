@@ -1,2 +1,2 @@
 FROM tomcat
-COPY target/sparkjava-hello-world-1.0.war usr/local/tomcat/webapps/sparkjava.war
+COPY target/sparkjava-$BUILD_NUMBER.war usr/local/tomcat/webapps/sparkjava.war
